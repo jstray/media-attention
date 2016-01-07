@@ -10,7 +10,7 @@ import csv
 # generate a MediaCloud query URL for specified search and tine range
 # searches in US mainstream media collection
 def MCQueryURL(query,start,end):
-	key='cb06e55ab4655ba83234a37c2da051e0e4c78d8331fab31990a1a13fc697def7'
+	key=''
 	url = ('https://api.mediacloud.org/api/v2/sentences/count?key=' + 
 	        key + 
 	        '&q=sentence:' +
